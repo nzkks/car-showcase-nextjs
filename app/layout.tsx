@@ -8,7 +8,7 @@ import { Navbar } from '@/components'
 
 export const metadata = {
   title: 'Car hub',
-  description: 'Disover the best cars in the world.',
+  description: 'Discover the best cars in the world.',
 }
 
 export default function RootLayout({
