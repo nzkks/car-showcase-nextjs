@@ -5,7 +5,7 @@ const options = {
   url: 'https://cars-by-api-ninjas.p.rapidapi.com/v1/cars',
   params: { model: 'corolla' },
   headers: {
-    'X-RapidAPI-Key': '3aa5476c86msh6971a4af39d4004p122366jsn78d617f75c3c',
+    'X-RapidAPI-Key': process.env.X_RAPIDAPI_KEY,
     'X-RapidAPI-Host': 'cars-by-api-ninjas.p.rapidapi.com'
   }
 };
